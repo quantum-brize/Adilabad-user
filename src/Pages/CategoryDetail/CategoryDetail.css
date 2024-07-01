@@ -1,0 +1,12 @@
+.category-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category-detail .sub-category{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}

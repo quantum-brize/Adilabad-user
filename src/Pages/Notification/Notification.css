@@ -1,0 +1,13 @@
+.no-Notification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    padding: 0 40px;
+    text-align: center;
+}
+
+/* Notification */

@@ -1,0 +1,54 @@
+.order-history{
+    display: flex;
+    flex-direction: column;
+
+}
+.flex-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.orders-list{
+    padding: 10px;
+}
+.date-box p{
+font-size: 0.8em;
+color: rgb(45, 45, 45);
+}
+.detail-box h4{
+    color: rgb(95, 95, 95);
+
+}
+
+
+
+
+
+
+
+.order-card{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+    margin: 0 8px;
+}
+.order-card img{
+    width: 3em;
+}
+.text{
+    flex:1;
+}
+.text h4{
+    color: rgb(95, 95, 95);
+}
+.text p{
+    line-height: 20px;
+    font-size: 0.9em;
+}
+.time {
+
+    line-height: 20px;
+    font-size: 0.8em;
+}

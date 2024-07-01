@@ -1,0 +1,126 @@
+.card-6{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #ffe1e1;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.746);
+    margin: 20px 5px;
+    border-radius: 20px;
+}
+.upper-box{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.image-box{
+    flex-basis: 45%;
+    
+    margin-right: 10px;
+}
+.image-box img{
+    height: 85%;
+    width: 100%;
+    margin: 5px 5px 0 5px;
+    border-radius: 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+}
+.product-details{
+    padding: 10px 0;
+}
+.product-details h5{
+    font-weight: 400;
+    font-size: 1.2em;
+}
+.product-details p{
+}
+.offer-price{
+    color: red;
+    font-weight: 900;
+}
+.offer-price span{
+    
+    font-size: 0.6em;
+}
+.original-price{
+    
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+.original-price span{
+    text-decoration:line-through;
+}
+.cart-options{
+    display: flex;
+    align-items: center;
+    gap: 10px;}
+
+.cart-options button{
+        padding: 5px 10px;
+        background: red;
+        font-size: 0.9em;
+        color: #fff;
+        outline: none;
+        border: 0;
+        font-weight: 700;
+    }
+    .cart-change{
+        display: flex;
+        align-items: center;
+        align-items: center;
+    }
+.cart-change button{
+background: #fff;
+z-index: 40;
+border-radius: 30px;
+    width: 20px;
+    height: 19px;
+    color: red;
+    outline: none;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-change input{
+    width: 30px;
+    height: 20px;
+    outline: none;
+    border: red;
+    background: red;
+    color: #fff;
+    margin: 0 -10px;
+}
+
+.enquired-text{
+    font-weight: 400;
+    color: #484848;
+    margin-top: 3px;
+}
+.enquired-icon{
+    color: #005bec;
+}
+
+.lower-box{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0 5px 10px 5px;
+}
+.rows-action{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.rows-action button{
+    background: #fff;
+    border: 1px solid #000;
+    color: #000;
+    padding: 3px 5px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.rows-action p{
+    font-size: 0.7em;
+}

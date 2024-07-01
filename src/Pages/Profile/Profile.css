@@ -1,0 +1,106 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body-profile{
+    width: 100%;
+    padding: 20px;
+}
+.profile-card{
+    width: 100%;
+    background: #F4C095;
+    border-radius: 20px;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-pic img{
+    width: 5em;
+    height: 5em;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+
+}
+.detail p{
+    font-size: 0.8em;
+    font-weight: 700;
+}
+.details h5{
+    font-size: 0.8em;
+    font-weight: 600;
+}
+.title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title span{
+    background: #e6e6e6;
+    border-radius: 50px;
+    height: 1.5em;
+    width: 1.5em;
+    padding: 3px;
+    color: #ccc;
+}
+.search-list{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.searched-box{
+    background: #F4C095;
+    border-radius: 14px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    min-width: 160px;
+    margin: 0 10px 0 0;
+    padding: 20px 10px;
+    gap: 10px;
+}
+.searched-box img{
+    width: 2em;
+    height: 2em;
+    object-fit: cover;
+}
+.searched-box p{
+    font-size: 0.8em;
+}
+.list-profile{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.my-order-history{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #1d1d1d;
+}
+
+.list-profile .icon{
+    margin: 5px 0;
+    background: #ef8989;
+    padding: 5px;
+    width: 2em;
+    height: 2em;
+    color: #fff;
+    border-radius: 50%;
+}
+.my-order-history .icon{
+    margin: 5px 0;
+    color: #fff;
+    background: #0471ff;
+    padding: 5px;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+}

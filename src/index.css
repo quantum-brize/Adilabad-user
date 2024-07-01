@@ -1,0 +1,21 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  font-family: 'Poppins', sans-serif; /* Ensure you have a fallback font */
+}
+
+body {
+  margin: 0;
+}
+
+
+.display-none {
+  display: none;
+}

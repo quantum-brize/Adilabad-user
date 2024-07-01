@@ -1,0 +1,19 @@
+.card-5{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+.text{
+    flex:1;
+}
+.text p{
+    line-height: 20px;
+    font-size: 0.9em;
+}
+.time {
+
+    line-height: 20px;
+    font-size: 0.8em;
+}
