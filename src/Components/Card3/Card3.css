@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 5px;
 }
 .card-3 .card-details p{
   font-size: 0.8em;
@@ -27,6 +28,9 @@
     overflow: hidden;
     width: 100%;
     font-family: Arial, sans-serif;
+    background-color: #fff7f8;
+  border-radius: 20px;
+
   }
   .store-image{
     flex-basis: 50%;
@@ -89,7 +93,6 @@
   }
   
   .offer-discount{
-    
     display: block;
     font-size: 0.7em;
     color: #2c3e50;
@@ -138,5 +141,13 @@
   
   .view-details-btn:hover {
     background-color: #2980b9;
+  }
+
+
+  .card-details span{
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: #cccccc;
   }
   
